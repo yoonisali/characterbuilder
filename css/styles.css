@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+  background-color: indianred;
+  padding-top: 20px;
+  font-size: larger;
+}
+
+.hidden {
+  display: none;
+}
+
+img {
+  height: 400px;
+  width: 600px;
+}

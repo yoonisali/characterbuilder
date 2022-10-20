@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="js/scripts.js"></script>
+  <title>Character Builder</title>
+</head>
+
+<body>
+
+  <h1>Character Builder!</h1>
+  <form id="character">
+    <h3>Enter a name!</h3>
+    <label for="name"></label>
+    <input id="name" type="text">
+    <br>
+    <br>
+    <h3>Choose a height!</h3>
+    <label>
+      <select id="height">
+        <option value="shaq">Shaq</option>
+        <option value="average">Average</option>
+        <option value="tiny">Tiny</option>
+      </select>
+    </label>
+    <br>
+    <br>
+  
+    <h3>Choose your class!</h3>
+    <label>
+      <input type="radio" name="operator" value="warrior" checked>
+      Warrior Class
+    </label>
+    <label>
+      <input type="radio" name="operator" value="magic">
+      Magic Class
+    </label>
+    <label>
+      <input type="radio" name="operator" value="archery">
+      Archery Class
+    </label>
+    <br>
+    <br>
+    <h3>Choose date of birth!</h3>
+    <label for="start"></label>
+    <input id="start" type="date" name="dob" value="2022-10-20">
+    <br>
+    <br>
+    <h3>Choose your outfit color!</h3>
+    <label for="color"></label>
+    <input id="color" type="color">
+    <br>
+    <br>
+    <br>
+    <br>
+    <button type="submit">Submit to get your character!</button>
+  </form>
+
+  <div id="reveal2" class="hidden">
+  <img src="img/shaqwarrior.jpeg" alt="photo of Shaq as warrior">
+  </div>
+
+</body>
+
+</html>
