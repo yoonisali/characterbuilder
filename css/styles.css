@@ -4,7 +4,7 @@ body {
   padding-top: 10px;
   font-size: x-large;
   font-weight: bold;
-  padding-top: 20px;
+  padding-top: 5px;
 }
 
 .hidden {
@@ -12,8 +12,8 @@ body {
 }
 
 img {
-  height: 400px;
-  width: 600px;
+  height: 300px;
+  width: 500px;
   padding-top: 10px;
   padding-bottom: 20px;
 }
