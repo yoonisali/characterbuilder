@@ -1,8 +1,10 @@
 body {
   text-align: center;
-  background-color: indianred;
+  background-color:darkgreen;
+  padding-top: 10px;
+  font-size: x-large;
+  font-weight: bold;
   padding-top: 20px;
-  font-size: larger;
 }
 
 .hidden {
@@ -12,4 +14,6 @@ body {
 img {
   height: 400px;
   width: 600px;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
